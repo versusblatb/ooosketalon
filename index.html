@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ООО "СК "ЭТАЛОН" | Строительная компания в Ставрополе</title>
+    <meta name="description" content="ООО СК Эталон - надежная строительная компания в Ставрополе. Капитальное строительство, ремонт, отделка. Лицензия №1152651018520. +7(968)266-50-80">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Предзагрузка -->
+    <div class="preloader" id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Навигация -->
+    <!-- Навигация -->
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="#" class="logo">
+            <i class="fas fa-building"></i>
+            ЭТАЛОН
+        </a>
+        
+        <!-- Гамбургер-кнопка (только на мобильных) -->
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+        <!-- Десктопное меню -->
+        <ul class="nav-menu" id="navMenu">
+            <li><a href="#home" class="nav-link">Главная</a></li>
+            <li><a href="#about" class="nav-link">О компании</a></li>
+            <li><a href="#services" class="nav-link">Услуги</a></li>
+            <li><a href="#contacts" class="nav-link">Контакты</a></li>
+        </ul>
+        
+        <a href="#contacts" class="cta-button">Связаться</a>
+    </div>
+    
+    <!-- Мобильное меню (выезжает слева) -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <h3>Меню</h3>
+            <button class="close-menu" id="closeMenu">&times;</button>
+        </div>
+        <ul class="mobile-menu-list">
+            <li><a href="#home" class="mobile-link">Главная</a></li>
+            <li><a href="#about" class="mobile-link">О компании</a></li>
+            <li><a href="#services" class="mobile-link">Услуги</a></li>
+            <li><a href="#contacts" class="mobile-link">Контакты</a></li>
+            <li><a href="#contacts" class="mobile-cta">Связаться</a></li>
+        </ul>
+    </div>
+    
+    <!-- Затемнение фона при открытом меню -->
+    <div class="menu-overlay" id="menuOverlay"></div>
+</nav>
+
+    <!-- Главный экран -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-particles" id="particles"></div>
+        
+        <div class="hero-content">
+            <div class="hero-subtitle">ООО "Строительная Компания"</div>
+            <h1 class="hero-title">ЭТАЛОН</h1>
+            <p class="hero-description">
+                Надежное строительство в Ставрополе с 2015 года<br>
+                ✓ Лицензия №1152651018520 ✓ ИНН 2634093175
+            </p>
+            <div class="hero-buttons">
+                <a href="#services" class="hero-btn hero-btn-primary">
+                    <i class="fas fa-hammer"></i> Наши услуги
+                </a>
+                <a href="#contacts" class="hero-btn hero-btn-secondary">
+                    <i class="fas fa-phone"></i> Консультация
+                </a>
+            </div>
+        </div>
+
+        <!-- Плавающие элементы -->
+        <div class="floating-element floating-element-1">
+            <i class="fas fa-hard-hat" style="font-size: 3rem; opacity: 0.3;"></i>
+        </div>
+        <div class="floating-element floating-element-2">
+            <i class="fas fa-drafting-compass" style="font-size: 2.5rem; opacity: 0.3;"></i>
+        </div>
+        <div class="floating-element floating-element-3">
+            <i class="fas fa-building" style="font-size: 4rem; opacity: 0.3;"></i>
+        </div>
+    </section>
+
+    <!-- О компании -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <h2 class="section-title fade-in">О компании ООО "СК "ЭТАЛОН"</h2>
+            <p class="section-subtitle fade-in">
+                Надежный партнер в строительстве на территории Ставропольского края с 2015 года
+            </p>
+
+            <div class="info-cards">
+                <div class="info-card fade-in">
+                    <div class="info-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Руководитель</h3>
+                    <p><strong>Далгатов Гаджи Магомедович</strong><br>
+                    Директор компании<br>
+                    Действующий на основании Устава</p>
+                </div>
+
+                <div class="info-card fade-in">
+                    <div class="info-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Опыт работы</h3>
+                    <p>На рынке строительных услуг<br>
+                    с 2015 года<br>
+                    ОГРН 1152651018520</p>
+                </div>
+
+                <div class="info-card fade-in">
+                    <div class="info-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Территория</h3>
+                    <p>Ставропольский край<br>
+                    г. Ставрополь и регионы<br>
+                    Южный федеральный округ</p>
+                </div>
+
+                <div class="info-card fade-in">
+                    <div class="info-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Надежность</h3>
+                    <p>✓ Лицензии и сертификаты<br>
+                    ✓ СРО строителей<br>
+                    ✓ Страхование ответственности</p>
+                </div>
+            </div>
+
+            <!-- Реквизиты -->
+            <div class="requisites-section fade-in">
+                <h3 class="requisites-title">
+                    <i class="fas fa-file-contract"></i> Реквизиты компании
+                </h3>
+                <div class="requisites-grid">
+                    <div class="requisite-item">
+                        <span class="requisite-label">Полное наименование</span>
+                        <span class="requisite-value">ООО "СК "ЭТАЛОН"</span>
+                    </div>
+                    <div class="requisite-item">
+                        <span class="requisite-label">ИНН</span>
+                        <span class="requisite-value">2634093175</span>
+                    </div>
+                    <div class="requisite-item">
+                        <span class="requisite-label">КПП</span>
+                        <span class="requisite-value">263501001</span>
+                    </div>
+                    <div class="requisite-item">
+                        <span class="requisite-label">ОГРН</span>
+                        <span class="requisite-value">1152651018520</span>
+                    </div>
+                    <div class="requisite-item">
+                        <span class="requisite-label">Расчетный счет</span>
+                        <span class="requisite-value">40702810956000007155</span>
+                    </div>
+                    <div class="requisite-item">
+                        <span class="requisite-label">Банк</span>
+                        <span class="requisite-value">Альфа-Банк</span>
+                    </div>
+                    <div class="requisite-item">
+                        <span class="requisite-label">БИК</span>
+                        <span class="requisite-value">040702752</span>
+                    </div>
+                    <div class="requisite-item">
+                        <span class="requisite-label">Адрес</span>
+                        <span class="requisite-value">г. Ставрополь</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- СЕКЦИЯ КОНТАКТОВ (ТВОЯ ВЕРСИЯ) -->
+    <section class="contacts-section" id="contacts">
+        <div class="container">
+            <div class="contacts-header fade-in">
+                <h2 class="section-title">Контактная информация</h2>
+                <p class="section-subtitle">Готовы обсудить ваш проект? Свяжитесь с нами!</p>
+            </div>
+
+            <!-- Контактная информация -->
+            <div class="contact-info-cards fade-in">
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Юридический адрес</h3>
+                    <p>355000, Ставропольский край,<br>
+                    г. Ставрополь, ул. Объездная, д. 23Б, Офис 2</p>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Фактический адрес</h3>
+                    <p>355000, Ставропольский край,<br>
+                    г. Ставрополь, ул. 8 марта, д. 164А, офис 74</p>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Телефоны</h3>
+                    <p><strong>Мобильный:</strong> +7 (968) 266-50-80<br>
+                    <strong>Офис:</strong> +7 (8652) 66-50-80</p>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p><strong>sketalon26@mail.ru</strong></p>
+                </div>
+            </div>
+
+            <!-- Форма обратной связи -->
+            <div class="contact-form-wrapper fade-in">
+                <div class="form-header">
+                    <h2 class="form-title">Свяжитесь с директором</h2>
+                    <p class="form-subtitle">Быстрая связь напрямую с руководителем компании</p>
+                </div>
+                
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Ваше имя *</label>
+                        <input type="text" id="name" name="name" required placeholder="Иван Иванов">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Телефон для связи *</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="+7 (___) ___-__-__">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="example@mail.ru (необязательно)">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Тема обращения</label>
+                        <select id="subject" name="subject">
+                            <option value="">Выберите тему</option>
+                            <option value="consultation">Консультация</option>
+                            <option value="estimate">Расчет сметы</option>
+                            <option value="cooperation">Сотрудничество</option>
+                            <option value="question">Вопрос</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Сообщение директору *</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Опишите ваш вопрос или проект..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-button">
+                        <i class="fas fa-paper-plane"></i> Отправить сообщение
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="footer-content">
+            <h2 class="footer-title">ООО "СК "ЭТАЛОН"</h2>
+            <p style="margin-bottom: 2rem; font-size: 1.1rem;">
+                Надежное строительство в Ставрополе с 2015 года
+            </p>
+            
+            <div class="footer-contacts">
+                <div class="footer-contact-item">
+                    <h4><i class="fas fa-map-marker-alt"></i> Адреса</h4>
+                    <p>Юр.: ул. Объездная, 23Б, офис 2</p>
+                    <p>Факт.: ул. 8 марта, 164А, офис 74</p>
+                    <p>г. Ставрополь, 355000</p>
+                </div>
+                
+                <div class="footer-contact-item">
+                    <h4><i class="fas fa-phone"></i> Контакты</h4>
+                    <p><a href="tel:+79682665080">+7 (968) 266-50-80</a></p>
+                    <p><a href="tel:+78652665080">+7 (8652) 66-50-80</a></p>
+                    <p><a href="mailto:sketalon26@mail.ru">sketalon26@mail.ru</a></p>
+                </div>
+                
+                <div class="footer-contact-item">
+                    <h4><i class="fas fa-file-contract"></i> Реквизиты</h4>
+                    <p>ИНН: 2634093175</p>
+                    <p>КПП: 263501001</p>
+                    <p>ОГРН: 1152651018520</p>
+                </div>
+                
+                <div class="footer-contact-item">
+                    <h4><i class="fas fa-university"></i> Банк</h4>
+                    <p>Альфа-Банк</p>
+                    <p>Р/с: 40702810956000007155</p>
+                    <p>БИК: 040702752</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 ООО "СК "ЭТАЛОН" | Все права защищены | Лицензия №1152651018520</p>
+                <p style="margin-top: 0.5rem; font-size: 0.8rem;">Строительная компания в Ставрополе | Работаем с 2015 года</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
